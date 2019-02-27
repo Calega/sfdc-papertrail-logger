@@ -56,7 +56,7 @@
         <type>LongTextArea</type>
         <visibleLines>10</visibleLines>
     </fields>
-    <fields>
+    <!-- <fields>
         <fullName>Level__c</fullName>
         <description>The logging level.</description>
         <externalId>false</externalId>
@@ -86,7 +86,7 @@
             <sorted>false</sorted>
         </picklist>
         <type>Picklist</type>
-    </fields>
+    </fields> -->
     <fields>
         <fullName>Short_Message__c</fullName>
         <externalId>false</externalId>
@@ -108,11 +108,11 @@
     <pluralLabel>Logs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
+    <!-- <validationRules>
         <fullName>Level_Required</fullName>
         <active>true</active>
         <errorConditionFormula>LEN(  TEXT(Level__c)  ) = 0</errorConditionFormula>
         <errorDisplayField>Level__c</errorDisplayField>
         <errorMessage>Level is required.</errorMessage>
-    </validationRules>
+    </validationRules> -->
 </CustomObject>
