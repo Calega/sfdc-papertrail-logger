@@ -2,6 +2,9 @@
 /**
  * Module dependencies.
  */
+ "use strict";
+
+
 var config = require('./config.js');
 var express = require('express')
   , faye    = require('faye')
