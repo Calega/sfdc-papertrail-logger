@@ -2,7 +2,7 @@
   "name": "sfdc-papertrail-logger",
   "version": "0.0.1",
   "engines": {
-    "node": "4.4.5"
+    "node": "4.7.0"
   },
   "private": true,
   "dependencies": {
