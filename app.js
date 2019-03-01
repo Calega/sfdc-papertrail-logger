@@ -3,13 +3,14 @@
  * Module dependencies.
  */
  
+var bodyParser= require('body-parser');
 var config = require('./config.js');
 var express = require('express')
   , faye    = require('faye')
   , nforce = require('nforce')
   , util = require('util')
   , routes = require('./routes');
-var bodyParser= require('body-parser');
+
 
 var app = express();
 
