@@ -28,13 +28,6 @@ var sfdc = nforce.createConnection({
 // Configuration
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-// app.use(express.bodyParser());
-// app.use(express.methodOverride());
-// app.use(app.router);
-// app.use('/public'); 
-// app.use(express.static(__dirname + '/public')); 
-// app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
-// app.use(express.errorHandler());
 
 // Routes
 app.get('/', routes.index);
@@ -50,6 +43,7 @@ function getOAuthToken(callback) {
   if(config.DEBUG) console.log("Authenticating to get salesforce.com access token...");
   
   sfdc.authenticate({ username: config.USERNAME, password: config.PASSWORD }, function(err, resp){
+    console.log(resp);
     if(err) {
       console.log('Error authenticating to org: ' + err.message);
     } else {
