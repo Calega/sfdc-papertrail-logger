@@ -10,7 +10,7 @@ var express = require('express')
   , util = require('util')
   , routes = require('./routes');
 
-var app = module.exports = express.createServer();
+var app = express();
 
 // Bayeux server - mounted at /cometd
 var fayeServer = new faye.NodeAdapter({mount: '/cometd', timeout: 60 });
