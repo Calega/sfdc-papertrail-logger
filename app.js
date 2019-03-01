@@ -11,7 +11,6 @@ var express = require('express')
   , util = require('util')
   , routes = require('./routes');
 
-
 var app = express();
 
 // Bayeux server - mounted at /cometd

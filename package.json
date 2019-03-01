@@ -9,7 +9,6 @@
     "express": "^5.0.0-alpha.2",
     "jade": "*",
     "nforce": "*",
-    "faye": "*",
-    "body-parser": "^1.15.2"
+    "faye": "*"
   }
 }
