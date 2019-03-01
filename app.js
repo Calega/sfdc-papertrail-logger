@@ -39,8 +39,9 @@ app.set('view engine', 'jade');
 // Routes
 app.get('/', routes.index);
 
-app.listen(config.PORT, function(){
-  console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
+app.listen(config.PORT, function() {
+  console.log('Node.js listening ' + config.PORT);
+  // console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
 
 // authenticates and returns OAuth -- used by faye
