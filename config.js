@@ -1,7 +1,8 @@
 exports.PORT = process.env.PORT || 3001; // use heroku's dynamic port or 3001 if localhost
 exports.DEBUG = process.env.DEBUG; 
 exports.ENVIRONMENT = 'sandbox'; 
-exports.CALLBACK_URL = 'http://localhost:3001'; 
+// exports.CALLBACK_URL = 'http://localhost:3001';
+exports.CALLBACK_URL = 'https://papertrail-lucas-sfdc.herokuapp.com/'; 
 exports.PUSH_TOPIC = '/topic/LogEntries';
 
 exports.CLIENT_ID = '3MVG98dostKihXN5YKaqAhSPq24v0T1s16aDkghym3T.1OuMoeExPJupHwEWF5UyoUa2XBCenV6_87LjNKC8n';
