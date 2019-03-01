@@ -8,4 +8,4 @@ exports.PUSH_TOPIC = '/topic/LogEntries';
 exports.CLIENT_ID = '3MVG98dostKihXN5YKaqAhSPq24v0T1s16aDkghym3T.1OuMoeExPJupHwEWF5UyoUa2XBCenV6_87LjNKC8n';
 exports.CLIENT_SECRET = '8430B9145F67506ABB8F1008BE2889C1D3CDC0B882BF9A65AEF1354CA39E7121';
 exports.USERNAME = 'lucas.calegari@canadadrives.ca.se2lucas';
-exports.PASSWORD = 'dtt.170293'; 
+exports.PASSWORD = 'dtt.170293iiQNuc99WbS4b7RvrK7zDzSS'; 
