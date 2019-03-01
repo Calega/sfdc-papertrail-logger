@@ -9,6 +9,7 @@ var express = require('express')
   , nforce = require('nforce')
   , util = require('util')
   , routes = require('./routes');
+var bodyParser= require('body-parser');
 
 var app = express();
 
